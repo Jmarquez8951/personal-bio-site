@@ -5,10 +5,12 @@ body {
     padding: 0;
 }
 
+/* Nav Links */
+
 nav h1 {
     text-align: center;
     margin: 0;
-    padding: 20px;
+    padding: 30px 20px;
     background-color: rgba(128, 128, 128, 0.384);
 }
 
@@ -41,6 +43,45 @@ nav h1 {
     box-shadow: 2px 2px rgb(112, 128, 144);
 }
 
+/* paragraphs */
+
+#bioPage {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 30px;
+    text-align: left;
+}
+
+.paragraph {
+    margin: 30px;
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    border-radius: 10px;
+    width: 600px;
+    align-self: flex-start;
+    box-shadow: 5px 5px grey;
+    background-color: rgba(255, 255, 255, 0.493)
+}
+
+.paraTwo {
+    align-self: flex-end;
+}
+
+.paragraph h2 {
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.418);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.paragraph p {
+    padding: 0 20px;
+}
+
+/* project card page */
+
 #projectsPage {
     padding-top: 50px;
     display: flex;
@@ -69,7 +110,6 @@ nav h1 {
     border-top-right-radius: 15px;
     color: white;
 }
-
 
 .project-card img {
     background-color: rgba(0, 0, 0, 0.418);
@@ -113,6 +153,8 @@ nav h1 {
     box-shadow: 2px 4px gray;
     
 }
+
+/* footer end */
 
 .icons img {
     height: 80px;
