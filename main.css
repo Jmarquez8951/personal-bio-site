@@ -9,6 +9,7 @@ body {
 
 nav h1 {
     text-align: center;
+    color: white;
     margin: 0;
     padding: 30px 20px;
     background-color: rgba(128, 128, 128, 0.384);
@@ -21,6 +22,8 @@ nav h1 {
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.493);
     padding: 15px 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 #navLinks li {
@@ -59,7 +62,8 @@ nav h1 {
     width: 600px;
     align-self: flex-start;
     box-shadow: 5px 5px grey;
-    background-color: rgba(255, 255, 255, 0.493)
+    background-color: rgba(255, 255, 255, 0.493);
+    text-align: center;
 }
 
 .paraTwo {
@@ -70,7 +74,7 @@ nav h1 {
     margin: 0;
     padding: 10px 0;
     width: 100%;
-    text-align: center;
+    color: white;
     background-color: rgba(0, 0, 0, 0.418);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -117,6 +121,9 @@ nav h1 {
     padding: 3px;
 }
 
+< footerTouchUp
+
+> master
 /* project card page */
 
 #projectsPage {
