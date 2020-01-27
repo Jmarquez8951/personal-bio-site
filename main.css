@@ -80,6 +80,43 @@ nav h1 {
     padding: 0 20px;
 }
 
+/* Tools and Languages */
+
+#technologiesPage {
+    text-align: center;    
+    display: flex;
+    align-content: center;
+    flex-flow: column wrap;
+}
+
+#technologiesPage h2 {
+    color: white;
+    padding: 15px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 3px 3px gainsboro;
+    background-color: rgba(255, 255, 255, 0.219);
+}
+
+#technologiesPage ul {
+    align-self: center;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    list-style-type: none;
+    background-color: rgba(255, 255, 255, 0.493);
+    width: 225px;
+    border: 2px solid rgba(255, 255, 255, 0.596);
+    box-shadow: 5px 5px grey;
+    border-radius: 10px;
+}
+
+#technologiesPage li {
+    padding: 3px;
+}
+
 /* project card page */
 
 #projectsPage {
