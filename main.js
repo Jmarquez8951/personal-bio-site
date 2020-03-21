@@ -63,6 +63,9 @@ const navToBio = () => {
     domString+=  '<header>'
     domString+=  '<h2>My Background</h2>'
     domString+=  '</header>'
+    domString+= '<div class="profile-container">'
+    domString+= '<img class="profile" src="./img/profile.jpg" alt="Photo of Jose Marquez">'
+    domString+= '</div>'
     domString+=    '<p>I am an eighteen year old who really enjoys coding. I came from Mexico at a very young age and lived almost my entire life in Murfreesboro, TN. I graduated with Honors from Riverdale High School with almost a 3.9 GPA. I had thousands of dollars worth of scholarships, but not enough to pay for college.</p>'
     domString+=    '<p>I started coding when I was in High School on a whim. I say that because I took the class not knowing what to expect and I ended up loving it. My first year I dabbled in a little bit of everything from HTML to Python to even a little bit of C#. I did a little bit of C# because I wanted to go into game development, but ended up not doing so. My Sophomore year in High school I was being taught visual studio code from a book, so I kind of learned from there that I will be learning and teaching myself to code. My Junior year in High school I was the last year I could do the programming course at my school because there weren\'t enough people to game a fourth year class. Still, I continued to code throughout the year with many different types of languages.</p>'
     domString+='</div>'
@@ -85,15 +88,17 @@ const navToBio = () => {
 
 const navToTechnologies = () => {
     let domString = '';
-    domString+= '<h2>Tools and languages I have started to learn</h2>'
-    domString+= '<ul>'
-    domString+= '<li>Git Bash</li>'
-    domString+= '<li>GitHub</li>'
-    domString+= '<li>HTML</li>'
-    domString+= '<li>CSS</li>'
-    domString+= '<li>JavaScript</li>'
-    domString+= '<li>Python</li>'
-    domString+= '</ul>'
+    domString+= '<h2>Tools and languages I have started to learn</h2>';
+    domString+= '<ul>';
+    domString+= '<li><i class="fab fa-git-alt"></i>Git Bash</li>';
+    domString+= '<li><i class="fab fa-github"></i>GitHub</li>';
+    domString+= '<li><i class="fab fa-html5"></i>HTML</li>';
+    domString+= '<li><i class="fab fa-css3-alt"></i>CSS</li>';
+    domString+= '<li><i class="fab fa-sass"></i>Sass</li>';
+    domString+= '<li><i class="fab fa-js-square"></i>JavaScript</li>';
+    domString+= '<li><img class="icon" src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/JQuery_logo-512.png">JQuery</li>';
+    domString+= '<li><i class="fab fa-python"></i>Python</li>';
+    domString+= '</ul>';
     printToDom('technologiesPage', domString);
     printToDom('bioPage', '');
     printToDom('projectsPage', '');
