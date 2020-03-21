@@ -1,0 +1,48 @@
+{
+  "name": "personal-bio-site",
+  "version": "1.0.0",
+  "description": "This is my personal bio site where we were told to create one to our liking to showcase some of our skills. (Images are subject to change)\r ## Screenshots\r ![screenshot](/screenshots/Shot1.png)\r ![screenshot](/screenshots/Shot2.png)\r ## How to Run\r 1. Clone down this repo\r 1. Make sure you have http-server install via npm. If not get it [HERE](https://www.npmjs.com/package/http-server).\r 1. On your command line run `hs -p 9999`\r 1. In your browser go to `http://localhost:9999`",
+  "main": "src/javascripts/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production --module-bind js=babel-loader",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jmarquez8951/personal-bio-site.git"
+  },
+  "keywords": [],
+  "author": "Jose Marquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jmarquez8951/personal-bio-site/issues"
+  },
+  "homepage": "https://github.com/Jmarquez8951/personal-bio-site#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.1",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.1"
+  }
+}
