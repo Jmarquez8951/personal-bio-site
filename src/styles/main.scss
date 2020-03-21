@@ -1,3 +1,6 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
 body {
     background-color: rgb(113, 151, 255);
     font-family: 'Rubik', sans-serif;
@@ -8,6 +11,7 @@ body {
 .profile {
     width: 220px;
     margin: 10px;
+    border: solid 2px black;
     border-radius: 10%;
     box-shadow: rgba(255, 255, 255, 0.493) 5px 5px;
 }
