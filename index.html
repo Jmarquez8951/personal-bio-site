@@ -5,63 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Jose Marquez Website | Home</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="./main.css">
   <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Navigation -->
   <nav>
     <h1>Jose Marquez's Website</h1>
-    <ul id="navLinks">
-      <li><a href="" id="navToBio" class="nav">Bio</a></li>
-      <li><a href="" id="navToTechnologies" class="nav">Technologies</a></li>
-      <li><a href="" id="navToProjects" class="nav">Projects</a></li>
-    </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" id="navToBio">Bio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="navToTechnologies">Technologies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" id="navToProjects">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </nav>
-  <!-- End Navigation -->
-
-  <!-- Primary View -->
-  <div class="fullPage" id="bioPage">
-    <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-    <div class="paragraph paraOne">
-      <header>
-      <h2>My Background</h2>
-      </header>
-      <p>I am an eighteen year old who really enjoys coding. I came from Mexico at a very young age and lived almost my entire life in Murfreesboro, TN. I graduated with Honors from Riverdale High School with almost a 3.9 GPA. I had thousands of dollars worth of scholarships, but not enough to pay for college.</p>
-      <p>I started coding when I was in High School on a whim. I say that because I took the class not knowing what to expect and I ended up loving it. My first year I dabbled in a little bit of everything from HTML to Python to even a little bit of C#. I did a little bit of C# because I wanted to go into game development, but ended up not doing so. My Sophomore year in High school I was being taught visual studio code from a book, so I kind of learned from there that I will be learning and teaching myself to code. My Junior year in High school I was the last year I could do the programming course at my school because there weren't enough people to game a fourth year class. Still, I continued to code throughout the year with many different types of languages.</p>
-    </div>
-    <div class="paragraph paraTwo">
-      <header>
-      <h2>Why do I want to go into development?</h2>
-      </header>
-      <p>I want to go into development because I have always liked a challenge and with development you will face new challenges every single day. I also like development because I have always wanted to make a difference in this world and I believe there's a better chance at doing so being a web developer than being a game developer.</p>
-    </div>
-    <div class="paragraph paraThree">
-      <header>
-      <h2>What do you love about development?</h2>
-      </header>
-      <p>I have always been drawn towards technology ever since a young age. I used to play with legos so that's why I think I like creating things from websites to drawings to even little games that I have made in the past during High school. I love everything about development. I enjoyed the little challenges I faced while programming with visual studio code in High school. It was fun to me to think of a solution and see it actually work. There were many many times when my ideas didn't work, but when it finally does there is no better feeling.</p>
-    </div>
-  </div>
-  <div class="fullPage" id="technologiesPage">
-    <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
-    <h2>Tools and languages I have started to learn</h2>
-    <ul>
-        <li>Git Bash</li>
-        <li>GitHub</li>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Python</li>
-    </ul>
-  </div>
+  <div class="fullPage" id="bioPage"></div>
+  <div class="fullPage" id="technologiesPage"></div>
   <div class="fullPage" id="projectsPage"></div>
-  <!-- End Primary View -->
-
-  <!-- Footer -->
   <footer class="page-footer">
-    <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
     <p>Contact information: </p>
     <div class="icons">
     <a href="https://github.com/Jmarquez8951" target="_blank"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="Github icon"></a>
@@ -72,6 +47,9 @@
     </div>
 </footer>
   <!-- End Footer -->
-  <script src="./project.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="./main.js"></script>
 </body>
 </html>
