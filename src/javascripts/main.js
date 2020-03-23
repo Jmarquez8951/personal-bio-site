@@ -13,6 +13,7 @@ const events = () => {
 
 const init = () => {
   events();
+  bioPage.navToBio();
 };
 
 init();
