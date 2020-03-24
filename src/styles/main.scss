@@ -1,11 +1,24 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "./colors.scss";
 
 body {
-    background-color: rgb(113, 151, 255);
+    background-color: $primary-color;
     font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.jumbotron {
+    background-color: $helping-color;
+    color: $terniary-color;
+}
+
+nav {
+    background-color: $terniary-color;
+    .nav-link {
+        color: $primary-color;
+    }
 }
 
 .profile {
@@ -13,7 +26,7 @@ body {
     margin: 10px;
     border: solid 2px black;
     border-radius: 10%;
-    box-shadow: rgba(255, 255, 255, 0.493) 5px 5px;
+    box-shadow: $terniary-color 5px 5px;
 }
 
 /* Nav Links */
@@ -23,7 +36,7 @@ nav h1 {
     color: white;
     margin: 0;
     padding: 30px 20px;
-    background-color: rgba(128, 128, 128, 0.384);
+    background-color: $terniary-color;
 }
 
 .nav-link {
@@ -41,12 +54,12 @@ nav h1 {
 
 .paragraph {
     margin: 30px;
-    border: 2px solid rgba(255, 255, 255, 0.596);
+    border: 2px solid $primary-color;
     border-radius: 10px;
     width: 600px;
     align-self: flex-start;
     box-shadow: 5px 5px grey;
-    background-color: rgba(255, 255, 255, 0.493);
+    background-color: $terniary-color;
     text-align: center;
 }
 
@@ -59,13 +72,13 @@ nav h1 {
     padding: 10px 0;
     width: 100%;
     color: white;
-    background-color: rgba(0, 0, 0, 0.418);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    background-color: $helping-color;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .paragraph p {
-    padding: 0 20px;
+    padding: 10px 20px;
 }
 
 /* Tools and Languages */
@@ -83,8 +96,8 @@ nav h1 {
     border-top: 1px solid white;
     border-left: 1px solid white;
     border-radius: 10px;
-    box-shadow: 3px 3px gainsboro;
-    background-color: rgba(255, 255, 255, 0.219);
+    box-shadow: 3px 3px $terniary-color;
+    background-color: $helping-color;
 }
 
 #technologiesPage ul {
@@ -94,15 +107,16 @@ nav h1 {
     display: flex;
     flex-flow: column wrap;
     list-style-type: none;
-    background-color: rgba(255, 255, 255, 0.493);
+    background-color: $secondary-color;
     width: 225px;
-    border: 2px solid rgba(255, 255, 255, 0.596);
-    box-shadow: 5px 5px grey;
+    border: 2px solid $primary-color;
+    box-shadow: 5px 5px $terniary-color;
     border-radius: 10px;
 }
 
 #technologiesPage li {
     padding: 3px;
+    color: black;
 }
 
 .icon {
@@ -112,6 +126,7 @@ nav h1 {
 
 i {
     padding-right: 5px;
+    color: black;
 }
 
 /* project card page */
@@ -123,92 +138,11 @@ i {
     justify-content: center;
 }
 
-.project-card {
-    display: flex;
-    border: 2px solid rgba(255, 255, 255, 0.596);
-    width: 300px;
-    text-align: center;
-    flex-flow: row wrap;
-    margin: 15px;
-    box-shadow: 5px 5px grey;
-    border-radius: 15px;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.493);
-    height: 750px;
-}
-
-.project-card header {
-    padding-top: 15px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.418);
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    color: white;
-}
-
-.project-card img {
-    background-color: rgba(0, 0, 0, 0.418);
-    width: 200px;
-    margin: 10px;
-    padding: 3px;
-    border: 2px solid rgba(255, 255, 255, 0.596);
-    border-radius: 15px;
-    box-shadow: 5px 5px grey;
-}
-
-.project-card h4 {   
-    text-decoration: underline;
-    padding: 0;
-    margin: 10px 0;
-}
-
-.project-card p {
-    width: 250px;
-}
-
-.shadow {
-    background-color: rgba(112, 128, 144, 0.274);
-    padding: 5px;
-    border-radius: 10px;
-    box-shadow: 1px 1px slategray;
-}
-
-.project-card a {
-    text-decoration: none;
-    color: black;
-    background-color: gainsboro;
-    border: 1px rgba(255, 255, 255, 0.596) solid;
-    padding: 4px;
-    border-radius: 10px;
-}
-
-.project-card a:hover {
-    color: white;
-    background-color: rgb(123, 154, 255);
-    box-shadow: 2px 4px gray;
-    
-}
-
 /* footer end */
 
-.page-footer {
-    display: flex;
-    flex-flow: row wrap;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-}
-
-.page-footer p {
-    height: 25px;
+footer {
+    width: 100%;
     margin-top: 30px;
-    padding: 5px;
-    background-color: rgba(255, 255, 255, 0.267);
-    box-shadow: -2px 2px white;
-    border-radius: 10px;
-}
-
-.icons img {
-    height: 80px;
-    padding: 10px;
+    background-color: $terniary-color;
+    text-align: center;
 }
