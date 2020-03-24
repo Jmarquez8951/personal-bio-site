@@ -1,0 +1,12 @@
+@import '../../../styles/colors.scss';
+
+.card {
+  background-color: $terniary-color !important;
+  .card-body {
+    background-color: $secondary-color;
+  }
+  .btn {
+    background-color: $helping-color;
+    border: none;
+  }
+}

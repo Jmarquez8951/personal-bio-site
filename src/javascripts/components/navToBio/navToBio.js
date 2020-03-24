@@ -13,10 +13,10 @@ const navToBio = () => {
   domString += ' I graduated with Honors from Riverdale High School with almost a 3.9 GPA. I had thousands of dollars worth of scholarships, but not enough to pay for college.</p>';
   domString += '<p>I started coding when I was in High School on a whim. I say that because I took the class not knowing what to expect and I ended up loving it.';
   domString += ' My first year I dabbled in a little bit of everything from HTML to Python to even a little bit of C#.';
-  domString += 'I did a little bit of C# because I wanted to go into game development, but ended up not doing so.';
+  domString += ' I did a little bit of C# because I wanted to go into game development, but ended up not doing so.';
   domString += ' My Sophomore year in High school I was being taught visual studio code from a book, so I kind of learned from there that I will be learning and teaching myself to code.';
   domString += ' My Junior year in High school I was the last year I could do the programming course at my school because there weren\'t enough people to game a fourth year class.';
-  domString += 'Still, I continued to code throughout the year with many different types of languages.</p>';
+  domString += ' Still, I continued to code throughout the year with many different types of languages.</p>';
   domString += '</div>';
   domString += '<div class="paragraph paraTwo">';
   domString += '<header>';
