@@ -5,6 +5,7 @@ import './projectCards.scss';
 const createProjectCards = () => {
   let domString = '';
   const projects = projectsData.getProjects();
+  console.error(projects);
   projects.forEach((project) => {
     if (project.available === true) {
       domString += '<div class="card rounded col-3 m-2 pb-3">';
