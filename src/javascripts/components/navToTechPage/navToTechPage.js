@@ -1,4 +1,5 @@
 import utils from '../../helpers/utils';
+import './navToTechPage.scss';
 
 const navToTechnologies = () => {
   let domString = '';

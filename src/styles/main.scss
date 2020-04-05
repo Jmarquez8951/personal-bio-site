@@ -12,13 +12,34 @@ body {
 .jumbotron {
     background-color: $helping-color;
     color: $terniary-color;
-}
-
-nav {
-    background-color: $terniary-color;
-    .nav-link {
-        color: $primary-color;
+    // This css is from css tricks
+    .line-1{
+        position: relative;
+        top: 20px;  
+        width: 20em;
+        margin: 0 auto;
+        border-right: 2px solid rgba(255,255,255,.75);
+        font-size: 220%;
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        transform: translateY(-50%);    
     }
+    
+    /* Animation */
+    .anim-typewriter{
+      animation: typewriter 4s steps(44) 1s 1 normal both,
+                 blinkTextCursor 500ms steps(44) infinite normal;
+    }
+    @keyframes typewriter{
+      from{width: 0;}
+      to{width: 11.2em;}
+    }
+    @keyframes blinkTextCursor{
+      from{border-right-color: rgba(255,255,255,.75);}
+      to{border-right-color: transparent;}
+    }
+    // The css tricks code ends here
 }
 
 .profile {
@@ -30,14 +51,6 @@ nav {
 }
 
 /* Nav Links */
-
-nav h1 {
-    text-align: center;
-    color: white;
-    margin: 0;
-    padding: 30px 20px;
-    background-color: $terniary-color;
-}
 
 .nav-link {
     font-size: 20px;
@@ -56,7 +69,7 @@ nav h1 {
     margin: 30px;
     border: 2px solid $primary-color;
     border-radius: 10px;
-    width: 600px;
+    width: 35rem;
     align-self: flex-start;
     box-shadow: 5px 5px grey;
     background-color: $terniary-color;
@@ -145,4 +158,13 @@ footer {
     margin-top: 30px;
     background-color: $terniary-color;
     text-align: center;
+}
+
+@media (max-width: 768px){
+    .jumbotron {
+        width: 100%;
+    }
+    footer {
+      font-size: 20px;
+    }
 }

@@ -1,4 +1,5 @@
 import utils from '../../helpers/utils';
+import './navToBio.scss';
 
 const navToBio = () => {
   let domString = '';
@@ -7,7 +8,7 @@ const navToBio = () => {
   domString += '<h2>My Background</h2>';
   domString += '</header>';
   domString += '<div class="profile-container">';
-  domString += '<img class="profile" src="src/img/profile.jpg" alt="Photo of Jose Marquez">';
+  domString += '<img class="profile" src="https://i.imgur.com/rvSS3Y9.jpg" alt="Photo of Jose Marquez">';
   domString += '</div>';
   domString += '<p>I am an eighteen year old who really enjoys coding. I came from Mexico at a very young age and lived almost my entire life in Murfreesboro, TN.';
   domString += ' I graduated with Honors from Riverdale High School with almost a 3.9 GPA. I had thousands of dollars worth of scholarships, but not enough to pay for college.</p>';
