@@ -14,13 +14,6 @@ body {
     color: $terniary-color;
 }
 
-nav {
-    background-color: $terniary-color;
-    .nav-link {
-        color: $primary-color;
-    }
-}
-
 .profile {
     width: 220px;
     margin: 10px;
@@ -30,14 +23,6 @@ nav {
 }
 
 /* Nav Links */
-
-nav h1 {
-    text-align: center;
-    color: white;
-    margin: 0;
-    padding: 30px 20px;
-    background-color: $terniary-color;
-}
 
 .nav-link {
     font-size: 20px;
@@ -145,4 +130,10 @@ footer {
     margin-top: 30px;
     background-color: $terniary-color;
     text-align: center;
+}
+
+@media (max-width: 768px){
+    .jumbotron {
+        width: 100%;
+    }
 }
