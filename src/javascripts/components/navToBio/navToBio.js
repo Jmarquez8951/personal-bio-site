@@ -1,4 +1,5 @@
 import utils from '../../helpers/utils';
+import './navToBio.scss';
 
 const navToBio = () => {
   let domString = '';
