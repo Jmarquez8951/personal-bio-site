@@ -12,7 +12,6 @@ body {
 .jumbotron {
     background-color: $helping-color;
     color: $terniary-color;
-    // This css is from css tricks
     .line-1{
         position: relative;
         top: 20px;  
@@ -168,3 +167,34 @@ footer {
       font-size: 20px;
     }
 }
+
+@media(max-width: 720px){
+    body {
+      padding: 0;
+  
+    .jumbotron{
+      width: 100%;
+    }
+    #bioPage {
+      display: flex;
+      justify-content: flex-start;
+      margin: 0;
+      .paragraph {
+        margin: 30px;
+        width: 90%;
+      }
+      .paraTwo {
+        align-self: flex-start;
+      }
+      }
+    }
+  }
+
+@media (max-width: 768px){
+    #technologiesPage{
+      margin: 15px;
+      li {
+        font-size: 25px;
+      }
+    }
+  }

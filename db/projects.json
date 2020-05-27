@@ -1,7 +1,7 @@
 {
   "Project1" : {
     "title": "Product Cards",
-    "screenshot": "https://freefrontend.com/assets/img/css-cards/product-card.png",
+    "screenshot": "https://raw.githubusercontent.com/Jmarquez8951/product-cards/master/screenshots/Shot1.png",
     "description": "This was my first homework assignment. It was to practice with what little we know and improve upon it. It was made with a group where we talked about how to make this.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": true,
@@ -10,7 +10,7 @@
   },
   "Project2": {
     "title": "Zen Garden",
-    "screenshot": "http://www.mezzoblue.com/zengarden/screenshots/217.jpg",
+    "screenshot": "https://raw.githubusercontent.com/Jmarquez8951/Zen-Garden/master/screenshots/shot1.PNG",
     "description": "This is a website where we were told to practice flexbox to make the website replica. I thought about all the objects on the website and thought of ways to make it using flexbox.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
     "available": true,
