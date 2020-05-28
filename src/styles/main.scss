@@ -52,6 +52,9 @@ body {
     border: solid 2px black;
     border-radius: 10%;
     box-shadow: $terniary-color 5px 5px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 /* Nav Links */
@@ -80,11 +83,12 @@ body {
         border-top-right-radius: 5px;
     }
     margin: 30px;
-    border: 2px solid $primary-color;
+    border: 2px solid black;
     border-radius: 10px;
     width: 35rem;
-    align-self: flex-start;
-    box-shadow: 5px 5px grey;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     background-color: $terniary-color;
     text-align: center;
     p {
@@ -104,10 +108,11 @@ body {
 #technologiesPage h2 {
     color: white;
     padding: 15px;
-    border-top: 1px solid white;
-    border-left: 1px solid white;
+    border: 2px solid black;
     border-radius: 10px;
-    box-shadow: 3px 3px $terniary-color;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     background-color: $helping-color;
 }
 
@@ -120,8 +125,10 @@ body {
     list-style-type: none;
     background-color: $secondary-color;
     width: 225px;
-    border: 2px solid $primary-color;
-    box-shadow: 5px 5px $terniary-color;
+    border: 2px solid black;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     border-radius: 10px;
 }
 
