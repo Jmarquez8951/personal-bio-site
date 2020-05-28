@@ -12,6 +12,11 @@ body {
 .jumbotron {
     background-color: $helping-color;
     color: $terniary-color;
+    background-image: url('https://images.unsplash.com/photo-1529101091764-c3526daf38fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     .line-1{
         position: relative;
         top: 20px;  
@@ -65,6 +70,15 @@ body {
 }
 
 .paragraph {
+    h2 {
+        margin: 0;
+        padding: 10px 0;
+        width: 100%;
+        color: white;
+        background-color: $helping-color;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
     margin: 30px;
     border: 2px solid $primary-color;
     border-radius: 10px;
@@ -73,24 +87,9 @@ body {
     box-shadow: 5px 5px grey;
     background-color: $terniary-color;
     text-align: center;
-}
-
-.paraTwo {
-    align-self: flex-end;
-}
-
-.paragraph h2 {
-    margin: 0;
-    padding: 10px 0;
-    width: 100%;
-    color: white;
-    background-color: $helping-color;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.paragraph p {
-    padding: 10px 20px;
+    p {
+        padding: 10px 20px;
+    }
 }
 
 /* Tools and Languages */
@@ -183,9 +182,6 @@ footer {
         margin: 30px;
         width: 90%;
       }
-      .paraTwo {
-        align-self: flex-start;
-      }
       }
     }
   }
@@ -197,4 +193,29 @@ footer {
         font-size: 25px;
       }
     }
+  }
+
+/* Scrollbar */
+::-webkit-scrollbar-track
+  {
+      box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+      background-color: #CCCCCC;
+  }
+  
+::-webkit-scrollbar
+  {
+      width: 12px;
+      background-color: #F5F5F5;
+  }
+  
+::-webkit-scrollbar-thumb
+  {
+      border-radius: 20px;
+      background-color: #FFF;
+      background-image: -webkit-linear-gradient(360deg,
+                                                rgb(129, 29, 29) 0%,
+                                                rgb(180, 8, 8) 25%,
+                                                transparent 100%,
+                                                rgb(197, 13, 13) 75%,
+                                                transparent)
   }
