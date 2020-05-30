@@ -60,7 +60,14 @@ body {
 /* Nav Links */
 
 .nav-link {
-    font-size: 20px;
+  font-size: 20px;
+}
+
+.my-text {
+  color: white;
+}
+.my-text:hover {
+  color: black;
 }
 
 /* paragraphs */
@@ -106,6 +113,7 @@ body {
 }
 
 #technologiesPage h2 {
+    width: 65%;
     color: white;
     padding: 15px;
     border: 2px solid black;
@@ -116,15 +124,11 @@ body {
     background-color: $helping-color;
 }
 
-#technologiesPage ul {
-    align-self: center;
+#technologiesPage .tech {
+  width: 80%;
     padding: 10px;
     margin: 10px;
-    display: flex;
-    flex-flow: column wrap;
-    list-style-type: none;
-    background-color: $secondary-color;
-    width: 225px;
+    background-color: white;
     border: 2px solid black;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -132,20 +136,12 @@ body {
     border-radius: 10px;
 }
 
-#technologiesPage li {
-    padding: 3px;
-    color: black;
+.technology {
+  margin: 20px;
+  width: 150px;
 }
 
-.icon {
-    width: 50px;
-    padding-right: 5px;
-}
 
-i {
-    padding-right: 5px;
-    color: black;
-}
 
 /* project card page */
 
