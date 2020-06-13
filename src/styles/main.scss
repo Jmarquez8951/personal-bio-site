@@ -12,7 +12,11 @@ body {
 .jumbotron {
     background-color: $helping-color;
     color: $terniary-color;
-    // This css is from css tricks
+    background-image: url('https://images.unsplash.com/photo-1529101091764-c3526daf38fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
     .line-1{
         position: relative;
         top: 20px;  
@@ -48,12 +52,22 @@ body {
     border: solid 2px black;
     border-radius: 10%;
     box-shadow: $terniary-color 5px 5px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 /* Nav Links */
 
 .nav-link {
-    font-size: 20px;
+  font-size: 20px;
+}
+
+.my-text {
+  color: white;
+}
+.my-text:hover {
+  color: black;
 }
 
 /* paragraphs */
@@ -66,32 +80,27 @@ body {
 }
 
 .paragraph {
+    h2 {
+        margin: 0;
+        padding: 10px 0;
+        width: 100%;
+        color: white;
+        background-color: $helping-color;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
     margin: 30px;
-    border: 2px solid $primary-color;
+    border: 2px solid black;
     border-radius: 10px;
     width: 35rem;
-    align-self: flex-start;
-    box-shadow: 5px 5px grey;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     background-color: $terniary-color;
     text-align: center;
-}
-
-.paraTwo {
-    align-self: flex-end;
-}
-
-.paragraph h2 {
-    margin: 0;
-    padding: 10px 0;
-    width: 100%;
-    color: white;
-    background-color: $helping-color;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-}
-
-.paragraph p {
-    padding: 10px 20px;
+    p {
+        padding: 10px 20px;
+    }
 }
 
 /* Tools and Languages */
@@ -104,43 +113,35 @@ body {
 }
 
 #technologiesPage h2 {
+    width: 65%;
     color: white;
     padding: 15px;
-    border-top: 1px solid white;
-    border-left: 1px solid white;
+    border: 2px solid black;
     border-radius: 10px;
-    box-shadow: 3px 3px $terniary-color;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     background-color: $helping-color;
 }
 
-#technologiesPage ul {
-    align-self: center;
+#technologiesPage .tech {
+  width: 80%;
     padding: 10px;
     margin: 10px;
-    display: flex;
-    flex-flow: column wrap;
-    list-style-type: none;
-    background-color: $secondary-color;
-    width: 225px;
-    border: 2px solid $primary-color;
-    box-shadow: 5px 5px $terniary-color;
+    background-color: white;
+    border: 2px solid black;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     border-radius: 10px;
 }
 
-#technologiesPage li {
-    padding: 3px;
-    color: black;
+.technology {
+  margin: 20px;
+  width: 150px;
 }
 
-.icon {
-    width: 50px;
-    padding-right: 5px;
-}
 
-i {
-    padding-right: 5px;
-    color: black;
-}
 
 /* project card page */
 
@@ -168,3 +169,56 @@ footer {
       font-size: 20px;
     }
 }
+
+@media(max-width: 720px){
+    body {
+      padding: 0;
+  
+    .jumbotron{
+      width: 100%;
+    }
+    #bioPage {
+      display: flex;
+      justify-content: flex-start;
+      margin: 0;
+      .paragraph {
+        margin: 30px;
+        width: 90%;
+      }
+      }
+    }
+  }
+
+@media (max-width: 768px){
+    #technologiesPage{
+      margin: 15px;
+      li {
+        font-size: 25px;
+      }
+    }
+  }
+
+/* Scrollbar */
+::-webkit-scrollbar-track
+  {
+      box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+      background-color: #CCCCCC;
+  }
+  
+::-webkit-scrollbar
+  {
+      width: 12px;
+      background-color: #F5F5F5;
+  }
+  
+::-webkit-scrollbar-thumb
+  {
+      border-radius: 20px;
+      background-color: #FFF;
+      background-image: -webkit-linear-gradient(360deg,
+                                                rgb(129, 29, 29) 0%,
+                                                rgb(180, 8, 8) 25%,
+                                                transparent 100%,
+                                                rgb(197, 13, 13) 75%,
+                                                transparent)
+  }

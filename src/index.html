@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <div class="jumbotron jumbotron-fluid mb-0">
+  <div class="jumbotron jumbotron-fluid mb-0 image-background">
     <div class="container">
       <h1 class="display-4 line-1 anim-typewriter">Jose Marquez's Website</h1>
     </div>
@@ -22,29 +22,78 @@
       <div class="collapse navbar-collapse pl-2" id="navbarNavDropdown">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#" id="navToBio">Bio</a>
+            <a class="nav-link text-white" href="#bioPage" id="navToBio">Bio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#" id="navToTechnologies">Technologies</a>
+            <a class="nav-link text-white" href="#technologiesPage" id="navToTechnologies">Technologies</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#" id="navToProjects">Projects</a>
+            <a class="nav-link text-white" href="#projectsPage" id="navToProjects">Projects</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Contact
             </a>
             <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item text-white" href="https://github.com/Jmarquez8951" target="_blank">GitHub</a>
-              <a class="dropdown-item text-white" href="https://www.linkedin.com/in/jose-marquez-9a65031a1/" target="_blank">LinkedIn</a>
-              <a class="dropdown-item text-white" href="https://jose.marquez.palmeros@gmail.com" target="_blank">Email</a>
+              <a class="dropdown-item my-text" href="https://github.com/Jmarquez8951" target="_blank">GitHub</a>
+              <a class="dropdown-item my-text" href="https://www.linkedin.com/in/jose-marquez-9a65031a1/" target="_blank">LinkedIn</a>
+              <a class="dropdown-item my-text" href="mailto:jose.marquez.palmeros@gmail.com">Email</a>
             </div>
           </li>
         </ul>
     </nav>
   </nav>
-  <div class="fullPage m-2" id="bioPage"></div>
-  <div class="fullPage" id="technologiesPage"></div>
+  <div class="fullPage m-2" id="bioPage">
+    <h1 class="mx-auto text-white border-danger border-bottom">A Little About Me</h1>
+    <img class="profile mx-auto" src="https://i.imgur.com/rvSS3Y9.jpg" alt="Photo of Jose Marquez">
+    <div class="d-flex flex-wrap justify-content-center">
+      <div class="paragraph paraOne">
+        <header>
+        <h2>My Background</h2>
+        </header>
+        <div class="profile-container">
+        </div>
+          <p>
+            I have been practicing HTML, CSS, and JavaScript since my freshman year in high school.
+            I had been exposed to web development my freshman year and liked it, but didn't fall in love with it until after my junior year in high school.
+            Once I knew I wanted to go into web development I looked for schools and found <a href="http://nashvillesoftwareschool.com/" target="_blank">Nashville Software School</a>.
+          </p>
+        </div>
+        <div class="paragraph paraTwo">
+        <header>
+        <h2>Why do I want to go into development?</h2>
+        </header>
+        <p>I want to go into development because I have always liked a challenge and with development you will face new challenges every single day. 
+        I also like development because I've always wanted to make a difference in this world and I believe there's a better chance at doing so
+        as a web developer than a game developer.</p>
+        </div>
+        <div class="paragraph paraThree">
+        <header>
+        <h2>What do you love about development?</h2>
+        </header>
+        <p>I have always been drawn towards technology ever since a young age. I used to play with legos so that's why I think I like creating
+        things from websites to drawings to even little games that I have made in the past during High school. I love everything about development.
+        I enjoyed the little challenges I faced while programming with visual studio code in High school.
+        It was fun to me to think of a solution and see it actually work. There were many many times when my ideas didn't work, but when it finally does there is no better feeling.</p>
+        </div>
+      </div>
+  </div>
+  <div class="fullPage" id="technologiesPage">
+    <h2 class="mx-auto">Tools and languages I have started to learn</h2>
+    <div class="tech d-flex flex-wrap flex-row justify-content-center">  
+      <img class="technology" src="https://nss-day-cohort-32.github.io/images/techs/javascript.png" alt="javascript logo"/>
+      <img class="technology" src="https://nss-day-cohort-32.github.io/images/techs/github.png" alt="github logo"/>
+      <img class="technology" src="https://nss-day-cohort-32.github.io/images/techs/html5.png" alt="html5 logo"/>
+      <img class="technology" src="https://nss-day-cohort-32.github.io/images/techs/css3.png" alt="css3 logo"/>
+      <img class="technology" src="https://nss-day-cohort-32.github.io/images/techs/bootstrap.png" alt="bootstrap logo"/>
+      <img class="technology" src="https://nss-day-cohort-32.github.io/images/techs/react.png" alt="react logo"/>
+      <img class="technology" src="https://nss-day-cohort-32.github.io/images/techs/eslint.png" alt="eslint logo"/>
+      <img class="technology" src="https://nss-day-cohort-32.github.io/images/techs/vsc.png" alt="visual studio code logo"/>
+      <img class="technology" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1200px-Sass_Logo_Color.svg.png" alt="sass logo"/>
+      <img class="technology" src="https://cdn.filepicker.io/api/file/W6teayYkRmKgb8SMqxIn" alt="firebase logo"/>
+      <img class="technology" src="https://cdn4.iconfinder.com/data/icons/scripting-and-programming-languages/512/JQuery_logo-512.png" alt="jquery logo"/>
+    </div>
+  </div>
   <div class="fullPage d-flex justify-content-around" id="projectsPage"></div>
   <footer>
     <span>Copyright &copy; 2020</span>
