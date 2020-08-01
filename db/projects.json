@@ -9,13 +9,13 @@
     "githubUrl": "https://github.com/Jmarquez8951/product-cards"
   },
   "Project2": {
-    "title": "Zen Garden",
-    "screenshot": "https://raw.githubusercontent.com/Jmarquez8951/Zen-Garden/master/screenshots/shot1.PNG",
-    "description": "This is a website where we were told to practice flexbox to make the website replica. I thought about all the objects on the website and thought of ways to make it using flexbox.",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+    "title": "GameSafe",
+    "screenshot": "https://i.imgur.com/fbRmdSz.png",
+    "description": "This Website was my Front-end Capstone. It was made as a games tracker for people who want to know which games they have or do not have. It also gives the user more information on the games that they want to see on the website.",
+    "technologiesUsed": "React, JavaScript, CSS, SCSS, Firebase, Version Control with Github, Webpack, ES6 modules, Bootstrap, JSON, Third-party Api",
     "available": true,
-    "url": "https://github.com/Jmarquez8951/Zen-Garden",
-    "githubUrl": "https://github.com/Jmarquez8951/Zen-Garden"
+    "url": "https://frontend-capstone-fe278.web.app",
+    "githubUrl": "https://github.com/Jmarquez8951/Frontend-Capstone"
   },
   "Project3": {
     "title": "Pet Adoption",
@@ -36,13 +36,13 @@
     "githubUrl": "https://github.com/Jmarquez8951/sorting-hat"
   },
   "Project5": {
-    "title": "Sundew Smoozer",
-    "screenshot": "https://raw.githubusercontent.com/Jmarquez8951/chatty-sundews/master/src/img/sundew-smoozer.png",
-    "description": "This website is a chatting app where you can communicate as different people. I mainly worked on the large text button and the giphy Api.",
-    "technologiesUsed": "HTML5, CSS, SASS, Bootstrap, Vanilla JavaScript, JQuery, Giphy Api, Webpack, ES6 modules, Version Control with Github",
+    "title": "Sports Roster",
+    "screenshot": "https://i.imgur.com/W9GU8wu.png",
+    "description": "The web app is designed to showcase off the full CRUD capabilities using React. It is an Overwatch team roster that anyone can add or remove players from.",
+    "technologiesUsed": "React, JavaScript, CSS, SCSS, Firebase, Version Control with Github, Webpack, ES6 modules, Bootstrap, JSON",
     "available": true,
-    "url": "https://github.com/Jmarquez8951/chatty-sundews",
-    "githubUrl": "https://github.com/Jmarquez8951/chatty-sundews"
+    "url": "https://sports-roster-18e99.web.app",
+    "githubUrl": "https://github.com/Jmarquez8951/sports-roster"
   },
   "Project6": {
     "title": "Firebase Cows",
